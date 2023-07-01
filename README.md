@@ -1,11 +1,15 @@
-# TerpBuilder
-An iOS based mobile application that allows UMD students to plan their upcoming semester schedules. 
+<h1 align="center">
+   TerpBuilder
+</h1>
+
+An iOS based mobile application that allows UMD students to plan their upcoming semester schedules.
 
 ## Built-With
 
 * [Swift](https://www.swift.org/) - Primary language used to develop the application
 * [SwiftUI](https://developer.apple.com/documentation/swiftui) - Framework to develop the frontend portion of the application
 * [Firebase](https://firebase.google.com/) - Database used on the backend of the application
+* [umd.io](https://umd.io/) - API used to obtain real-time course information for the upcoming semester
 
 ## Features
 * View your weekly schedule with your classes on a hour by hour interval
@@ -16,6 +20,7 @@ An iOS based mobile application that allows UMD students to plan their upcoming 
 
 ## Schedule 
 
+
 ## Course Look-up
 
 ## Add/Delete Courses
@@ -23,6 +28,8 @@ An iOS based mobile application that allows UMD students to plan their upcoming 
 ## Campus Navigation
 
 ## Registration notification
+
+## Course Review
 
 ## Authors
 Subodh Khanal, Caleb Arcelius, Gavin Mealy, Rachel Modi
