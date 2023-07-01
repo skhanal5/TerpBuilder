@@ -1,0 +1,6 @@
+framework module Pods_Terp_Builder_Terp_BuilderUITests {
+  umbrella header "Pods-Terp_Builder-Terp_BuilderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

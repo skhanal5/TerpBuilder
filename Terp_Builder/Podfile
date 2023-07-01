@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'Terp_Builder' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Terp_Builder
+  pod 'Firebase/Database'
+
+  target 'Terp_BuilderTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Firebase/Database'
+  end
+
+  target 'Terp_BuilderUITests' do
+    # Pods for testing
+    pod 'Firebase/Database'
+  end
+
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+         end
+    end
+  end
+end

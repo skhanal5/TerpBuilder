@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20A307F08A4E1E0D88DD2B16 /* Pods_Terp_Builder_Terp_BuilderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A665A1A5407D6AF153332C /* Pods_Terp_Builder_Terp_BuilderUITests.framework */; };
+		3C14422B29BDED6100DB9A9F /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14422A29BDED6100DB9A9F /* AddClassView.swift */; };
+		3C14422D29BDF34600DB9A9F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14422C29BDF34600DB9A9F /* SettingsView.swift */; };
+		3C14422F29BDF98A00DB9A9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C14422E29BDF98A00DB9A9F /* MapView.swift */; };
+		3C6BB79329F811C100A82D7E /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BB79229F811C100A82D7E /* ReviewView.swift */; };
+		3C9DCD6B29F7E77700BAE19E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C9DCD6A29F7E77700BAE19E /* GoogleService-Info.plist */; };
+		3CA28A3929B2E3E0009E2A76 /* Terp_BuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA28A3829B2E3E0009E2A76 /* Terp_BuilderApp.swift */; };
+		3CA28A3B29B2E3E0009E2A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA28A3A29B2E3E0009E2A76 /* ContentView.swift */; };
+		3CA28A3D29B2E3E1009E2A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA28A3C29B2E3E1009E2A76 /* Assets.xcassets */; };
+		3CA28A4029B2E3E1009E2A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA28A3F29B2E3E1009E2A76 /* Preview Assets.xcassets */; };
+		3CA28A4A29B2E3E1009E2A76 /* Terp_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA28A4929B2E3E1009E2A76 /* Terp_BuilderTests.swift */; };
+		3CA28A5429B2E3E1009E2A76 /* Terp_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA28A5329B2E3E1009E2A76 /* Terp_BuilderUITests.swift */; };
+		3CA28A5629B2E3E1009E2A76 /* Terp_BuilderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA28A5529B2E3E1009E2A76 /* Terp_BuilderUITestsLaunchTests.swift */; };
+		3CA584AF29D0BB3100FF70B4 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA584AE29D0BB3100FF70B4 /* APIModel.swift */; };
+		3CA584B129D0BB7800FF70B4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA584B029D0BB7800FF70B4 /* Course.swift */; };
+		3CAB681F29BDB03400925AF1 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB681E29BDB03400925AF1 /* ScheduleView.swift */; };
+		768CB25F7DBCCCC129629719 /* Pods_Terp_Builder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF5877AE23B24119C718FD4 /* Pods_Terp_Builder.framework */; };
+		9733AFE329D76CAB007AA662 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733AFE229D76CAB007AA662 /* Utils.swift */; };
+		97E714E329F19CED0097B280 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E714E229F19CED0097B280 /* NotificationModel.swift */; };
+		AD2252DD29ECC03A00959BD4 /* DirectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2252DC29ECC03A00959BD4 /* DirectionsModel.swift */; };
+		ADAAF52A4A5E91A16263B2D8 /* Pods_Terp_BuilderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AA6281F0CD7F6423B634C0 /* Pods_Terp_BuilderTests.framework */; };
+		ADCC366729CE7519008CAD76 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC366629CE7519008CAD76 /* Styling.swift */; };
+		ADE8BF6229D2081200F7514B /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE8BF6129D2081200F7514B /* ScheduleModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA28A4629B2E3E1009E2A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA28A2D29B2E3E0009E2A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA28A3429B2E3E0009E2A76;
+			remoteInfo = Terp_Builder;
+		};
+		3CA28A5029B2E3E1009E2A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA28A2D29B2E3E0009E2A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA28A3429B2E3E0009E2A76;
+			remoteInfo = Terp_Builder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECEE363537284BDFEA5D1F7 /* Pods-Terp_Builder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_Builder.release.xcconfig"; path = "Target Support Files/Pods-Terp_Builder/Pods-Terp_Builder.release.xcconfig"; sourceTree = "<group>"; };
+		21AA6281F0CD7F6423B634C0 /* Pods_Terp_BuilderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terp_BuilderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		392AE86E4C97410CB9AE323D /* Pods-Terp_BuilderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_BuilderTests.debug.xcconfig"; path = "Target Support Files/Pods-Terp_BuilderTests/Pods-Terp_BuilderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C14422A29BDED6100DB9A9F /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		3C14422C29BDF34600DB9A9F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3C14422E29BDF98A00DB9A9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3C6BB79229F811C100A82D7E /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		3C9DCD6A29F7E77700BAE19E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CA28A3529B2E3E0009E2A76 /* Terp_Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terp_Builder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA28A3829B2E3E0009E2A76 /* Terp_BuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terp_BuilderApp.swift; sourceTree = "<group>"; };
+		3CA28A3A29B2E3E0009E2A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CA28A3C29B2E3E1009E2A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CA28A3F29B2E3E1009E2A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CA28A4529B2E3E1009E2A76 /* Terp_BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Terp_BuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA28A4929B2E3E1009E2A76 /* Terp_BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terp_BuilderTests.swift; sourceTree = "<group>"; };
+		3CA28A4F29B2E3E1009E2A76 /* Terp_BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Terp_BuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA28A5329B2E3E1009E2A76 /* Terp_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terp_BuilderUITests.swift; sourceTree = "<group>"; };
+		3CA28A5529B2E3E1009E2A76 /* Terp_BuilderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terp_BuilderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CA584AE29D0BB3100FF70B4 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		3CA584B029D0BB7800FF70B4 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		3CAB681E29BDB03400925AF1 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		49526F20D5D304CFBA100773 /* Pods-Terp_Builder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_Builder.debug.xcconfig"; path = "Target Support Files/Pods-Terp_Builder/Pods-Terp_Builder.debug.xcconfig"; sourceTree = "<group>"; };
+		87125B93960194EB2C5923A8 /* Pods-Terp_Builder-Terp_BuilderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_Builder-Terp_BuilderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Terp_Builder-Terp_BuilderUITests/Pods-Terp_Builder-Terp_BuilderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F8A8ACD72EA9D1A8B99BD26 /* Pods-Terp_BuilderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_BuilderTests.release.xcconfig"; path = "Target Support Files/Pods-Terp_BuilderTests/Pods-Terp_BuilderTests.release.xcconfig"; sourceTree = "<group>"; };
+		9733AFE229D76CAB007AA662 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		97E714E229F19CED0097B280 /* NotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		AD2252DC29ECC03A00959BD4 /* DirectionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsModel.swift; sourceTree = "<group>"; };
+		ADCC366629CE7519008CAD76 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		ADE8BF6129D2081200F7514B /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		BAF5877AE23B24119C718FD4 /* Pods_Terp_Builder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terp_Builder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A665A1A5407D6AF153332C /* Pods_Terp_Builder_Terp_BuilderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Terp_Builder_Terp_BuilderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E108CA2FE2846F0B3596C836 /* Pods-Terp_Builder-Terp_BuilderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Terp_Builder-Terp_BuilderUITests.release.xcconfig"; path = "Target Support Files/Pods-Terp_Builder-Terp_BuilderUITests/Pods-Terp_Builder-Terp_BuilderUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA28A3229B2E3E0009E2A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768CB25F7DBCCCC129629719 /* Pods_Terp_Builder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4229B2E3E1009E2A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAAF52A4A5E91A16263B2D8 /* Pods_Terp_BuilderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4C29B2E3E1009E2A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A307F08A4E1E0D88DD2B16 /* Pods_Terp_Builder_Terp_BuilderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4BBBFE2219524EDAEC2970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49526F20D5D304CFBA100773 /* Pods-Terp_Builder.debug.xcconfig */,
+				0ECEE363537284BDFEA5D1F7 /* Pods-Terp_Builder.release.xcconfig */,
+				87125B93960194EB2C5923A8 /* Pods-Terp_Builder-Terp_BuilderUITests.debug.xcconfig */,
+				E108CA2FE2846F0B3596C836 /* Pods-Terp_Builder-Terp_BuilderUITests.release.xcconfig */,
+				392AE86E4C97410CB9AE323D /* Pods-Terp_BuilderTests.debug.xcconfig */,
+				8F8A8ACD72EA9D1A8B99BD26 /* Pods-Terp_BuilderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CA28A2C29B2E3E0009E2A76 = {
+			isa = PBXGroup;
+			children = (
+				3CA28A3729B2E3E0009E2A76 /* Terp_Builder */,
+				3CA28A4829B2E3E1009E2A76 /* Terp_BuilderTests */,
+				3CA28A5229B2E3E1009E2A76 /* Terp_BuilderUITests */,
+				3CA28A3629B2E3E0009E2A76 /* Products */,
+				2C4BBBFE2219524EDAEC2970 /* Pods */,
+				B5B600CF7680E8AA83C5AAD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA28A3629B2E3E0009E2A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA28A3529B2E3E0009E2A76 /* Terp_Builder.app */,
+				3CA28A4529B2E3E1009E2A76 /* Terp_BuilderTests.xctest */,
+				3CA28A4F29B2E3E1009E2A76 /* Terp_BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA28A3729B2E3E0009E2A76 /* Terp_Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3C14422E29BDF98A00DB9A9F /* MapView.swift */,
+				3C14422C29BDF34600DB9A9F /* SettingsView.swift */,
+				3CAB681E29BDB03400925AF1 /* ScheduleView.swift */,
+				3CA28A3829B2E3E0009E2A76 /* Terp_BuilderApp.swift */,
+				3CA28A3A29B2E3E0009E2A76 /* ContentView.swift */,
+				3C14422A29BDED6100DB9A9F /* AddClassView.swift */,
+				3C6BB79229F811C100A82D7E /* ReviewView.swift */,
+				3CA28A3C29B2E3E1009E2A76 /* Assets.xcassets */,
+				3C9DCD6A29F7E77700BAE19E /* GoogleService-Info.plist */,
+				ADCC366529CE40F5008CAD76 /* Models */,
+				3CA28A3E29B2E3E1009E2A76 /* Preview Content */,
+			);
+			path = Terp_Builder;
+			sourceTree = "<group>";
+		};
+		3CA28A3E29B2E3E1009E2A76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CA28A3F29B2E3E1009E2A76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CA28A4829B2E3E1009E2A76 /* Terp_BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA28A4929B2E3E1009E2A76 /* Terp_BuilderTests.swift */,
+			);
+			path = Terp_BuilderTests;
+			sourceTree = "<group>";
+		};
+		3CA28A5229B2E3E1009E2A76 /* Terp_BuilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA28A5329B2E3E1009E2A76 /* Terp_BuilderUITests.swift */,
+				3CA28A5529B2E3E1009E2A76 /* Terp_BuilderUITestsLaunchTests.swift */,
+			);
+			path = Terp_BuilderUITests;
+			sourceTree = "<group>";
+		};
+		ADCC366529CE40F5008CAD76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97E714E229F19CED0097B280 /* NotificationModel.swift */,
+				ADCC366629CE7519008CAD76 /* Styling.swift */,
+				3CA584AE29D0BB3100FF70B4 /* APIModel.swift */,
+				3CA584B029D0BB7800FF70B4 /* Course.swift */,
+				ADE8BF6129D2081200F7514B /* ScheduleModel.swift */,
+				9733AFE229D76CAB007AA662 /* Utils.swift */,
+				AD2252DC29ECC03A00959BD4 /* DirectionsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5B600CF7680E8AA83C5AAD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5877AE23B24119C718FD4 /* Pods_Terp_Builder.framework */,
+				C7A665A1A5407D6AF153332C /* Pods_Terp_Builder_Terp_BuilderUITests.framework */,
+				21AA6281F0CD7F6423B634C0 /* Pods_Terp_BuilderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA28A3429B2E3E0009E2A76 /* Terp_Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA28A5929B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_Builder" */;
+			buildPhases = (
+				D998D503453C138142870464 /* [CP] Check Pods Manifest.lock */,
+				3CA28A3129B2E3E0009E2A76 /* Sources */,
+				3CA28A3229B2E3E0009E2A76 /* Frameworks */,
+				3CA28A3329B2E3E0009E2A76 /* Resources */,
+				A070CBD30DC35DFFBF4985A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terp_Builder;
+			productName = Terp_Builder;
+			productReference = 3CA28A3529B2E3E0009E2A76 /* Terp_Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CA28A4429B2E3E1009E2A76 /* Terp_BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA28A5C29B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_BuilderTests" */;
+			buildPhases = (
+				DBDBC0BD8792E43D7BB0E98E /* [CP] Check Pods Manifest.lock */,
+				3CA28A4129B2E3E1009E2A76 /* Sources */,
+				3CA28A4229B2E3E1009E2A76 /* Frameworks */,
+				3CA28A4329B2E3E1009E2A76 /* Resources */,
+				6A92ECC35B5CA20F5F89AE92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA28A4729B2E3E1009E2A76 /* PBXTargetDependency */,
+			);
+			name = Terp_BuilderTests;
+			productName = Terp_BuilderTests;
+			productReference = 3CA28A4529B2E3E1009E2A76 /* Terp_BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CA28A4E29B2E3E1009E2A76 /* Terp_BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA28A5F29B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_BuilderUITests" */;
+			buildPhases = (
+				B07FC0F37BEEFF54D5496A4E /* [CP] Check Pods Manifest.lock */,
+				3CA28A4B29B2E3E1009E2A76 /* Sources */,
+				3CA28A4C29B2E3E1009E2A76 /* Frameworks */,
+				3CA28A4D29B2E3E1009E2A76 /* Resources */,
+				296A8706692B9C7F5B394FF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA28A5129B2E3E1009E2A76 /* PBXTargetDependency */,
+			);
+			name = Terp_BuilderUITests;
+			productName = Terp_BuilderUITests;
+			productReference = 3CA28A4F29B2E3E1009E2A76 /* Terp_BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA28A2D29B2E3E0009E2A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3CA28A3429B2E3E0009E2A76 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3CA28A4429B2E3E1009E2A76 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CA28A3429B2E3E0009E2A76;
+					};
+					3CA28A4E29B2E3E1009E2A76 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3CA28A3429B2E3E0009E2A76;
+					};
+				};
+			};
+			buildConfigurationList = 3CA28A3029B2E3E0009E2A76 /* Build configuration list for PBXProject "Terp_Builder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CA28A2C29B2E3E0009E2A76;
+			productRefGroup = 3CA28A3629B2E3E0009E2A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA28A3429B2E3E0009E2A76 /* Terp_Builder */,
+				3CA28A4429B2E3E1009E2A76 /* Terp_BuilderTests */,
+				3CA28A4E29B2E3E1009E2A76 /* Terp_BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA28A3329B2E3E0009E2A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA28A4029B2E3E1009E2A76 /* Preview Assets.xcassets in Resources */,
+				3CA28A3D29B2E3E1009E2A76 /* Assets.xcassets in Resources */,
+				3C9DCD6B29F7E77700BAE19E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4329B2E3E1009E2A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4D29B2E3E1009E2A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		296A8706692B9C7F5B394FF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder-Terp_BuilderUITests/Pods-Terp_Builder-Terp_BuilderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder-Terp_BuilderUITests/Pods-Terp_Builder-Terp_BuilderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder-Terp_BuilderUITests/Pods-Terp_Builder-Terp_BuilderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A92ECC35B5CA20F5F89AE92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_BuilderTests/Pods-Terp_BuilderTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_BuilderTests/Pods-Terp_BuilderTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terp_BuilderTests/Pods-Terp_BuilderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A070CBD30DC35DFFBF4985A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder/Pods-Terp_Builder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder/Pods-Terp_Builder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Terp_Builder/Pods-Terp_Builder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07FC0F37BEEFF54D5496A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terp_Builder-Terp_BuilderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D998D503453C138142870464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terp_Builder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDBC0BD8792E43D7BB0E98E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Terp_BuilderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA28A3129B2E3E0009E2A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E714E329F19CED0097B280 /* NotificationModel.swift in Sources */,
+				3C14422D29BDF34600DB9A9F /* SettingsView.swift in Sources */,
+				3CA584B129D0BB7800FF70B4 /* Course.swift in Sources */,
+				3C14422F29BDF98A00DB9A9F /* MapView.swift in Sources */,
+				ADCC366729CE7519008CAD76 /* Styling.swift in Sources */,
+				3CA28A3B29B2E3E0009E2A76 /* ContentView.swift in Sources */,
+				3C6BB79329F811C100A82D7E /* ReviewView.swift in Sources */,
+				3CA584AF29D0BB3100FF70B4 /* APIModel.swift in Sources */,
+				3CA28A3929B2E3E0009E2A76 /* Terp_BuilderApp.swift in Sources */,
+				3CAB681F29BDB03400925AF1 /* ScheduleView.swift in Sources */,
+				3C14422B29BDED6100DB9A9F /* AddClassView.swift in Sources */,
+				AD2252DD29ECC03A00959BD4 /* DirectionsModel.swift in Sources */,
+				ADE8BF6229D2081200F7514B /* ScheduleModel.swift in Sources */,
+				9733AFE329D76CAB007AA662 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4129B2E3E1009E2A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA28A4A29B2E3E1009E2A76 /* Terp_BuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA28A4B29B2E3E1009E2A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA28A5429B2E3E1009E2A76 /* Terp_BuilderUITests.swift in Sources */,
+				3CA28A5629B2E3E1009E2A76 /* Terp_BuilderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA28A4729B2E3E1009E2A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA28A3429B2E3E0009E2A76 /* Terp_Builder */;
+			targetProxy = 3CA28A4629B2E3E1009E2A76 /* PBXContainerItemProxy */;
+		};
+		3CA28A5129B2E3E1009E2A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA28A3429B2E3E0009E2A76 /* Terp_Builder */;
+			targetProxy = 3CA28A5029B2E3E1009E2A76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CA28A5729B2E3E1009E2A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CA28A5829B2E3E1009E2A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA28A5A29B2E3E1009E2A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49526F20D5D304CFBA100773 /* Pods-Terp_Builder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Terp_Builder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = TRUE;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CA28A5B29B2E3E1009E2A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECEE363537284BDFEA5D1F7 /* Pods-Terp_Builder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Terp_Builder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = TRUE;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CA28A5D29B2E3E1009E2A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392AE86E4C97410CB9AE323D /* Pods-Terp_BuilderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terp_Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Terp_Builder";
+			};
+			name = Debug;
+		};
+		3CA28A5E29B2E3E1009E2A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8A8ACD72EA9D1A8B99BD26 /* Pods-Terp_BuilderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Terp_Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Terp_Builder";
+			};
+			name = Release;
+		};
+		3CA28A6029B2E3E1009E2A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87125B93960194EB2C5923A8 /* Pods-Terp_Builder-Terp_BuilderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terp_Builder;
+			};
+			name = Debug;
+		};
+		3CA28A6129B2E3E1009E2A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E108CA2FE2846F0B3596C836 /* Pods-Terp_Builder-Terp_BuilderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arcilesi.Terp-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Terp_Builder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA28A3029B2E3E0009E2A76 /* Build configuration list for PBXProject "Terp_Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA28A5729B2E3E1009E2A76 /* Debug */,
+				3CA28A5829B2E3E1009E2A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA28A5929B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA28A5A29B2E3E1009E2A76 /* Debug */,
+				3CA28A5B29B2E3E1009E2A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA28A5C29B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA28A5D29B2E3E1009E2A76 /* Debug */,
+				3CA28A5E29B2E3E1009E2A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA28A5F29B2E3E1009E2A76 /* Build configuration list for PBXNativeTarget "Terp_BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA28A6029B2E3E1009E2A76 /* Debug */,
+				3CA28A6129B2E3E1009E2A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA28A2D29B2E3E0009E2A76 /* Project object */;
+}
