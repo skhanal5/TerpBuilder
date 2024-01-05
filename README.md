@@ -1,6 +1,6 @@
-<h1 align="center">
-   TerpBuilder
-</h1>
+<div align="center">
+   <img width=300 src="https://github.com/skhanal5/TerpBuilder/assets/74752121/cdde1cc2-d7e6-434f-8555-29ce896e92f0"></img>
+</div>
 
 An iOS based mobile application that allows UMD students to plan their upcoming semester schedules.
 
